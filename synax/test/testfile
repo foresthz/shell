@@ -1,0 +1,6 @@
+if [ -f mm ]; then
+echo "file mm";
+fi
+if [ -f xx ];then
+echo "file xx";
+fi
