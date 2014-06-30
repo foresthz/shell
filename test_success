@@ -1,0 +1,18 @@
+echo "test"
+
+# cannot check $? inside function, but that value can be passed to this function, $? maybe context aware
+check(){
+echo "check"
+echo $1
+if [ $1 -ne 0 ]; then
+echo "failed";
+exit
+fi
+}
+echo "one"
+check $?
+ecxx
+check $?
+ls
+check $?
+
