@@ -1,6 +1,6 @@
 if [ -f mm ]; then
 echo "file mm";
 fi
-if [ -f xx ];then
+if [ -f xx_test_file ];then
 echo "file xx";
 fi
