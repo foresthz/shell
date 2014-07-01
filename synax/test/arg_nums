@@ -1,0 +1,18 @@
+#/bin/bash
+
+echo "judge number of input arguments"
+
+echo '++++++++++++++   number of input arguments is: ', $#
+echo 'the arguments you input are:'
+echo $@
+echo '+++++++++++++++++++++++++++++++++++++++++++++'
+if [ $# -eq 0 ]; then
+echo 'you should input at least one argument'
+echo '至少传入一个参数'
+exit
+fi
+
+if [ $# -lt 2 ]; then
+echo 'the number of argument is less than 2'
+fi
+
