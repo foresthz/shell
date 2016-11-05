@@ -1,0 +1,3 @@
+printf "hello \n"
+printf "this is shell \n"
+printf "okxx \n"
